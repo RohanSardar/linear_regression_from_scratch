@@ -4,7 +4,7 @@
 
 The simplest equation of linear equation is $y = mx + b$ where $m$ is the slope and $b$ is the intercept of the straight line.
 
-Now the error($E$) can be calculated as $E = {\frac 1 n}\sum_{i=0}^{n} (y_i - (mx_i+b))$ where $y_i$ is the actual value of the data point at $i$ location.
+Now the error($E$) can be calculated as $E = {\frac 1 n}\sum_{i=0}^{n} (y_i - (mx_i+b))^2$ where $y_i$ is the actual value of the data point at $i$ location.
 <br>This is the **Mean Squared Error(MSE)**.
 
 ### Gradient Descent
